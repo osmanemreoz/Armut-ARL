@@ -124,7 +124,7 @@ rules.head()
 rules[rules.antecedents==frozenset({'2_0'})]
 df.CreateDate.min()
 
-df[df.Hizmet=='2_0']['NEW_DATE']
+df[df.Hizmet=='2_0']['New_Date']
 
 
 #Adım 3: arl_recommender fonksiyonunu kullanarak son 1 ay içerisinde 2_0 hizmetini alan bir kullanıcıya hizmet önerisinde bulununuz.
